@@ -17,43 +17,43 @@ var quotes = [
 	{
 		quote: "Life is what happens when you're busy making other plans.",
 		source: "John Lennon",
-		citation: "",
-		year: "",
+		citation: "https://blog.hubspot.com/sales/famous-quotes",
+		year: "unknown",
 		tags: "Music"
 	},
 	{
 		quote: "I find your lack of faith disturbing.",
 		source: "Darth Vader",
-		citation: "",
+		citation: "Star Wars Epi 4, A New Hope",
 		year: 1977,
 		tags: "Nerdy",
   },
 	{
 		quote: "Incoming fire has the right of way.",
 		source: "Unknown",
-		citation: "",
-		year: "",
+		citation: "unknown",
+		year: "unknown",
 		tags: "Military",
 	},
 	{
 		quote: "Don’t spend time beating on a wall, hoping to transform it into a door..",
 		source: "Coco Chanel",
-		citation: "",
-		year: "",
-		tags: "",
+		citation: "unknown",
+		year: "unknown",
+		tags: "unknown",
 	},
 	{
 		quote: "What we think, we become",
 		source: "Buddha",
-		citation: "",
-		year: "",
+		citation: "unknown",
+		year: "unknown",
 		tags: "Faith",
 	},
 	{
 		quote: "Holding onto anger is like drinking poison and expecting the other person to die",
 		source: "Buddha",
-		citation: "",
-		year: "",
+		citation: "unknown",
+		year: "unknown",
 		tags: "Faith",
 	},
 ];
@@ -134,7 +134,7 @@ function printQuote() {
         html += "<span class='year'> " + currentQuote.date + "</span>";
 	}
 	
-    html += "<span class='category'> " + currentQuote.category + "</span>";
+    html += "<span class='tags'> " + currentQuote.tags + "</span>";
 
 
     // currentColor to change the button color and currentColor to change the background color
